@@ -1,5 +1,5 @@
 # Plagiarism-checker-Python
-###This is Simple project for checking plagiarism of text documents using cosine similarity
+_This is Simple project for checking plagiarism of text documents using cosine similarity_
 
 ```
 On Demo I have used three textfiles on the
@@ -26,7 +26,7 @@ Once you ran your application, output may look like something below
 ```
 ```
 python app.py
-``
+```
 ```
 ![](image.png?raw=true)
 ```
