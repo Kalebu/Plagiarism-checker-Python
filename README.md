@@ -27,6 +27,5 @@ Once you ran your application, output may look like something below
 ```
 python app.py
 ```
-```
+
 ![](image.png?raw=true)
-```
