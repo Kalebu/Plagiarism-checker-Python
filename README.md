@@ -11,25 +11,22 @@ similarities between them by using cosine similarity
 I used TfidfVectorizer to convert text to vectors so as
 I can computer the cosine similarity
 ```
+```
 from sklearn.feature_extraction.text import TfidfVectorizer
+```
 
-```
-```
 ```
 I used scikit-learn to computer the cosine similarity
 ```
+```
 from sklearn.metrics.pairwise import cosine_similarity
 ```
-
-```
-
 ```
 Once you ran your application, output may look like something below
 ```
+```
 python app.py
 ``
-```
-
 ```
 ![](image.png?raw=true)
 ```
