@@ -60,4 +60,4 @@ If you find this repo useful , give it a star
 
 Credits
 -----------
-All the credits to [kalebu](github.com/kalebu)
+All the credits to [kalebu](https://github.com/kalebu)
