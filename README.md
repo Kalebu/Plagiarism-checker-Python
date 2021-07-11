@@ -23,10 +23,10 @@ git clone https://github.com/Kalebu/Plagiarism-checker-Python
 
 ## Dependencies 
 
-Before you begin playing with the source code you might need to install the following libaries just as shown below;
+Before you begin playing with the source code you might need to install deps just as shown below;
 
 ```bash
-pip install scikit-learn
+pip3 install -r requirements.txt
 ```
 
 ## Running the App
