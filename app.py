@@ -11,8 +11,8 @@ def vectorize(Text): return TfidfVectorizer().fit_transform(Text).toarray()
 def similarity(doc1, doc2): return cosine_similarity([doc1, doc2])
 
 
-vectors_1 = vectorize(student_notes)
-s_vectors = list(zip(student_files, vectors_1))
+vectors = vectorize(student_notes)
+s_vectors = list(zip(student_files, vectors))
 plagiarism_results = set()
 
 
