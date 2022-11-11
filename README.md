@@ -8,7 +8,7 @@ This repo consists of a source code of a python script to detect plagiarism in t
 
 You might be wondering on how plagiarism detection on textual data is done, well it aint that complicated as you may think.
 
-We all all know that computer are good at numbers, so in order to compute the simlilarity between on two text documents, the textual  raw data is transformed into vectors => arrays of numbers and then from that we are going to use a basic knowledge vector to compute the the similarity between them.
+We all know that computer are good at numbers, so in order to compute the simlilarity between on two text documents, the textual  raw data is transformed into vectors => arrays of numbers and then from that we are going to use a basic knowledge vector to compute the the similarity between them.
 
 This repo consist of a basic example on how to do that.
 
