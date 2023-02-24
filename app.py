@@ -1,14 +1,32 @@
 import os
+import spacy
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+
+# Load the spacy model that you have installed
+nlp = spacy.load('en_core_web_md')
+
+
 student_files = [doc for doc in os.listdir() if doc.endswith('.txt')]
-student_notes = [open(_file, encoding='utf-8').read()
-                 for _file in student_files]
+student_files.remove("requirements.txt")
+student_notes = [open(_file, encoding='utf-8').read() for _file in student_files]
 
 
-def vectorize(Text): return TfidfVectorizer().fit_transform(Text).toarray()
-def similarity(doc1, doc2): return cosine_similarity([doc1, doc2])
+def preprocess(text):
+    # Remove stop words
+    stop_words = set(spacy.lang.en.stop_words.STOP_WORDS)
+    return ' '.join([token.text.lower() for token in nlp(text) if not token.is_stop])
+
+
+def vectorize(Text):
+    vectors = [preprocess(text) for text in Text]
+    return TfidfVectorizer().fit_transform(vectors).toarray()
+
+
+def similarity(doc1, doc2):
+    return cosine_similarity([doc1, doc2])
 
 
 vectors = vectorize(student_notes)
