@@ -1,1 +1,4 @@
+#While cloning a new folder is created with the same name of repo and if we run the app.py in that directory then it will not execute
+#Hence first traverse into repo which contains the files 
+#And also run the command "pip install   r requirements.txt"
 scikit_learn==0.24.2
