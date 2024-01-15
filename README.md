@@ -40,6 +40,7 @@ $ Plagiarism-checker-Python-> python3 app.py
 ('fatma.txt', 'john.txt', 0.14806887549598566)
 ('fatma.txt', 'juma.txt', 0.18643448370323362)
 
+
 ```
 
 ## A Python Library?
