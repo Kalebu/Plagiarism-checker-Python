@@ -4,7 +4,7 @@ This repo consists of a source code of a Python script which detects plagiarism 
 
 [![Become a patron](pictures/become_a_patron_button.png)](https://www.patreon.com/kalebujordan)
 
-## How is it 
+## How is it Done?
 
 You might be wondering how plagiarism detection on textual data is done, well it ain't as complicated as you may think.
 
