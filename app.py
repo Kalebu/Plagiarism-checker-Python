@@ -33,3 +33,4 @@ def check_plagiarism():
 for data in check_plagiarism():
     print(data)
 print ("checked plagiarism")
+print ("practising cherry-pick")
